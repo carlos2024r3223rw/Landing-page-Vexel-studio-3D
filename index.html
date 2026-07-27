@@ -3,398 +3,274 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FORJA — Crossfit & Artes Marciales | Entrena Sin Límites</title>
-  <meta name="description" content="FORJA — Box de entrenamiento de alto rendimiento. Crossfit, MMA y artes marciales. Prueba tu primera clase GRATIS. Fuerza, disciplina y adrenalina.">
+  <title>VEXEL Studio | Renderizado 3D e Infoarquitectura</title>
+  <meta name="description" content="Estudio de modelado y renderizado 3D de alta gama para arquitectos, desarrolladores y diseño de producto.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700;800;900&family=Barlow+Condensed:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- ============ HEADER / NAV ============ -->
-<header class="site-header" id="siteHeader">
-  <nav class="nav">
-    <div class="wrap nav__row">
-      <a href="#inicio" class="nav__logo">
-        <span class="logo-slash">//</span>FORJA<span class="logo-dot">.</span>
-      </a>
-      <ul class="nav__links" id="navLinks">
-        <li><a href="#disciplinas">DISCIPLINAS</a></li>
-        <li><a href="#nosotros">NOSOTROS</a></li>
-        <li><a href="#planes">PLANES</a></li>
-        <li><a href="#calculadora">CALCULADORA</a></li>
-        <li><a href="#contacto">CONTACTO</a></li>
+  <!-- NAVBAR -->
+  <nav class="nav" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">VEXEL<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#comparador">Tecnología</a></li>
+        <li><a href="#servicios">Servicios</a></li>
       </ul>
-      <div class="nav__cta">
-        <a href="#clase-gratis" class="btn btn--neon btn--sm" id="navCtaBtn">CLASE GRATIS</a>
-        <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
+      <a href="#cotizar" class="btn btn-primary nav-cta">Cotizar Proyecto</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <span></span><span></span>
+      </button>
     </div>
   </nav>
-</header>
 
-<!-- ============ HERO ============ -->
-<section class="hero" id="inicio">
-  <div class="hero__overlay"></div>
-  <div class="hero__grain" aria-hidden="true"></div>
-  <div class="hero__scanlines" aria-hidden="true"></div>
-
-  <div class="hero__img-bg" aria-hidden="true">
-    <img src="hero.png" alt="" class="hero__bg-img">
-  </div>
-
-  <div class="wrap hero__wrap">
-    <div class="hero__content">
-      <div class="hero__glitch-badge">
-        <span class="badge-pulse"></span>
-        <span>⚡ INSCRIPCIONES ABIERTAS — CUPOS LIMITADOS</span>
-      </div>
-
-      <h1 class="hero__title glitch" data-text="ROMPE TUS LÍMITES.">
-        ROMPE TUS<br><span class="neon-text">LÍMITES.</span>
-      </h1>
-
-      <p class="hero__sub">Crossfit de alto rendimiento & artes marciales mixtas. No es un gimnasio. Es una <strong class="neon-text">forja</strong> donde se construyen guerreros.</p>
-
-      <div class="hero__actions">
-        <a href="#clase-gratis" class="btn btn--neon btn--lg btn--pulse" id="heroCtaBtn">
-          ⚡ PRUEBA UNA CLASE GRATIS
-        </a>
-        <a href="#planes" class="btn btn--ghost btn--lg">
-          VER PLANES →
-        </a>
-      </div>
-
-      <div class="hero__stats">
-        <div class="hero-stat">
-          <span class="hero-stat__num">500+</span>
-          <span class="hero-stat__label">ATLETAS ACTIVOS</span>
-        </div>
-        <div class="hero-stat__divider"></div>
-        <div class="hero-stat">
-          <span class="hero-stat__num">12</span>
-          <span class="hero-stat__label">COACHES ÉLITE</span>
-        </div>
-        <div class="hero-stat__divider"></div>
-        <div class="hero-stat">
-          <span class="hero-stat__num">6AM-10PM</span>
-          <span class="hero-stat__label">HORARIO BESTIA</span>
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="hero-badge">Estudio de Visualización 3D</span>
+        <h1 class="hero-title">Damos vida a tus ideas antes de que existan.</h1>
+        <p class="hero-desc">Renderizado fotorrealista y modelado 3D de alta gama para arquitectura, interiorismo y diseño de producto. Precisión milimétrica, impacto visual absoluto.</p>
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn btn-secondary">Ver Portafolio</a>
+          <a href="#cotizar" class="btn btn-primary">Iniciar Proyecto</a>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="hero__scroll-indicator" aria-hidden="true">
-    <span>SCROLL</span>
-    <div class="scroll-line"></div>
-  </div>
-</section>
-
-<!-- ============ MARQUEE ============ -->
-<div class="marquee" aria-hidden="true">
-  <div class="marquee__track">
-    <span>FUERZA</span><span class="marquee__dot">◆</span>
-    <span>DISCIPLINA</span><span class="marquee__dot">◆</span>
-    <span>ADRENALINA</span><span class="marquee__dot">◆</span>
-    <span>CROSSFIT</span><span class="marquee__dot">◆</span>
-    <span>MMA</span><span class="marquee__dot">◆</span>
-    <span>MUAY THAI</span><span class="marquee__dot">◆</span>
-    <span>BJJ</span><span class="marquee__dot">◆</span>
-    <span>BOXEO</span><span class="marquee__dot">◆</span>
-    <span>FUERZA</span><span class="marquee__dot">◆</span>
-    <span>DISCIPLINA</span><span class="marquee__dot">◆</span>
-    <span>ADRENALINA</span><span class="marquee__dot">◆</span>
-    <span>CROSSFIT</span><span class="marquee__dot">◆</span>
-    <span>MMA</span><span class="marquee__dot">◆</span>
-    <span>MUAY THAI</span><span class="marquee__dot">◆</span>
-    <span>BJJ</span><span class="marquee__dot">◆</span>
-    <span>BOXEO</span><span class="marquee__dot">◆</span>
-  </div>
-</div>
-
-<!-- ============ DISCIPLINAS ============ -->
-<section class="section" id="disciplinas">
-  <div class="wrap">
-    <div class="section__head reveal">
-      <span class="section__tag">// 01</span>
-      <h2 class="section__title">ELIGE TU <span class="neon-text">DISCIPLINA</span></h2>
-      <p class="section__desc">Programas diseñados por coaches de élite para forjar tu mejor versión.</p>
+    <div class="hero-bg">
+      <img src="hero.png" alt="Render de Arquitectura Interior" class="hero-img">
+      <div class="hero-gradient"></div>
     </div>
-    <div class="disciplines-grid" id="disciplinesGrid">
-      <!-- Generado por script.js -->
-    </div>
-  </div>
-</section>
+  </header>
 
-<!-- ============ NOSOTROS ============ -->
-<section class="section section--split" id="nosotros">
-  <div class="wrap about__wrap">
-    <div class="about__visual reveal">
-      <div class="about__img-frame">
-        <img src="trainers.png" alt="Coaches de FORJA" class="about__img" width="560" height="480" loading="lazy">
-        <div class="about__frame-corner about__frame-corner--tl"></div>
-        <div class="about__frame-corner about__frame-corner--br"></div>
+  <!-- COMPARADOR BEFORE / AFTER -->
+  <section class="section bg-light" id="comparador">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Del concepto a la realidad</h2>
+        <p class="section-subtitle">Desliza para comparar el modelado base (wireframe) con el renderizado fotorrealista final.</p>
       </div>
-      <div class="about__exp-badge">
-        <span class="about__exp-num">8+</span>
-        <span>AÑOS<br>FORJANDO<br>GUERREROS</span>
-      </div>
-    </div>
-    <div class="about__content reveal">
-      <span class="section__tag">// 02</span>
-      <h2 class="section__title">ESTO NO ES UN <span class="neon-text">GIMNASIO</span></h2>
-      <p class="about__text">FORJA nació de la idea de que el entrenamiento real no ocurre en máquinas de espejo. Aquí levantamos barras, tiramos golpes y sudamos juntos. Sin egos, sin excusas.</p>
-      <div class="about__features">
-        <div class="about__feature">
-          <span class="about__feature-icon">⚔️</span>
-          <div>
-            <strong>COACHES CERTIFICADOS</strong>
-            <p>Competidores activos y exatletas profesionales.</p>
-          </div>
+
+      <div class="slider-container" id="beforeAfterSlider">
+        <div class="slider-img slider-img-after">
+          <img src="hero.png" alt="Render Final" loading="lazy">
+          <span class="slider-label label-after">Render Final</span>
         </div>
-        <div class="about__feature">
-          <span class="about__feature-icon">🔥</span>
-          <div>
-            <strong>METODOLOGÍA PROGRESIVA</strong>
-            <p>Programación periódica que evoluciona contigo.</p>
-          </div>
+        <div class="slider-img slider-img-before" id="sliderBefore">
+          <img src="hero.png" alt="Wireframe" loading="lazy">
+          <div class="wireframe-overlay"></div>
+          <span class="slider-label label-before">Wireframe</span>
         </div>
-        <div class="about__feature">
-          <span class="about__feature-icon">🏋️</span>
-          <div>
-            <strong>EQUIPO DE COMPETICIÓN</strong>
-            <p>Rogue, Assault, Concept2 — solo lo mejor.</p>
-          </div>
-        </div>
-        <div class="about__feature">
-          <span class="about__feature-icon">🤝</span>
-          <div>
-            <strong>COMUNIDAD BRUTAL</strong>
-            <p>Más que compañeros, familia que se empuja al límite.</p>
+        <div class="slider-handle" id="sliderHandle">
+          <div class="slider-handle-line"></div>
+          <div class="slider-handle-button">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
           </div>
         </div>
       </div>
-      <a href="#clase-gratis" class="btn btn--neon btn--lg">QUIERO ENTRENAR →</a>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ============ PLANES ============ -->
-<section class="section section--darker" id="planes">
-  <div class="wrap">
-    <div class="section__head section__head--center reveal">
-      <span class="section__tag">// 03</span>
-      <h2 class="section__title">PLANES DE <span class="neon-text">MEMBRESÍA</span></h2>
-      <p class="section__desc">Elige el plan que se adapte a tu nivel y objetivos. Sin contratos, sin letras chiquitas.</p>
-    </div>
-    <div class="plans-grid" id="plansGrid">
-      <!-- Generado por script.js -->
-    </div>
-  </div>
-</section>
-
-<!-- ============ CALCULADORA DE CALORÍAS ============ -->
-<section class="section" id="calculadora">
-  <div class="wrap">
-    <div class="section__head section__head--center reveal">
-      <span class="section__tag">// 04</span>
-      <h2 class="section__title">CALCULADORA DE <span class="neon-text">RENDIMIENTO</span></h2>
-      <p class="section__desc">Descubre cuántas calorías puedes quemar por sesión según tu perfil.</p>
-    </div>
-    <div class="calc reveal" id="calcSection">
-      <div class="calc__form">
-        <div class="calc__field">
-          <label for="calcWeight">PESO (KG)</label>
-          <input type="number" id="calcWeight" class="calc__input" placeholder="70" min="30" max="200">
-        </div>
-        <div class="calc__field">
-          <label for="calcDuration">DURACIÓN (MIN)</label>
-          <input type="number" id="calcDuration" class="calc__input" placeholder="60" min="15" max="180">
-        </div>
-        <div class="calc__field">
-          <label for="calcIntensity">INTENSIDAD</label>
-          <select id="calcIntensity" class="calc__input">
-            <option value="moderate">MODERADA</option>
-            <option value="high" selected>ALTA</option>
-            <option value="extreme">EXTREMA</option>
-          </select>
-        </div>
-        <div class="calc__field">
-          <label for="calcDiscipline">DISCIPLINA</label>
-          <select id="calcDiscipline" class="calc__input">
-            <option value="crossfit">CROSSFIT</option>
-            <option value="mma">MMA</option>
-            <option value="muaythai">MUAY THAI</option>
-            <option value="boxing">BOXEO</option>
-            <option value="bjj">BJJ</option>
-            <option value="strength">FUERZA</option>
-          </select>
-        </div>
-        <button class="btn btn--neon btn--lg calc__btn" id="calcBtn">⚡ CALCULAR</button>
+  <!-- SERVICIOS GRID -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Nuestra Especialidad</h2>
       </div>
-      <div class="calc__result" id="calcResult">
-        <div class="calc__result-inner">
-          <span class="calc__result-label">CALORÍAS ESTIMADAS</span>
-          <span class="calc__result-num" id="calcCalories">---</span>
-          <span class="calc__result-unit">KCAL / SESIÓN</span>
-          <div class="calc__result-bars" id="calcBars">
-            <div class="calc__bar">
-              <span>GRASA QUEMADA</span>
-              <div class="calc__bar-track"><div class="calc__bar-fill" id="barFat" style="width:0%"></div></div>
+      <div class="grid services-grid">
+        <div class="service-card">
+          <div class="service-icon">01</div>
+          <h3 class="service-title">Infoarquitectura</h3>
+          <p class="service-desc">Renders exteriores e interiores, planimetría 3D y recorridos virtuales para real estate y despachos de arquitectura.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">02</div>
+          <h3 class="service-title">Diseño de Producto</h3>
+          <p class="service-desc">Imágenes de estudio, prototipado visual y vistas explosionadas para campañas de marketing y presentaciones.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">03</div>
+          <h3 class="service-title">Game Assets</h3>
+          <p class="service-desc">Modelado optimizado (low-poly / high-poly), retopología y texturizado PBR para motores como Unreal Engine o Unity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA DE PROYECTOS -->
+  <section class="section bg-dark text-white" id="proyectos">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Portafolio Destacado</h2>
+        <p class="section-subtitle">Explora algunos de nuestros renders más recientes en alta resolución.</p>
+      </div>
+      
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="arch.png" alt="Proyecto Arquitectura" loading="lazy" class="gallery-img">
+          <div class="gallery-overlay">
+            <h4>Residencia Silva</h4>
+            <p>Exterior · Iluminación Twilight</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="hero.png" alt="Proyecto Interiorismo" loading="lazy" class="gallery-img">
+          <div class="gallery-overlay">
+            <h4>Penthouse M5</h4>
+            <p>Interior · Luz Natural</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="product.png" alt="Proyecto Producto" loading="lazy" class="gallery-img">
+          <div class="gallery-overlay">
+            <h4>Aura Audio</h4>
+            <p>Producto · Studio Setup</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARIO PASO A PASO -->
+  <section class="section" id="cotizar">
+    <div class="container form-container">
+      <div class="form-sidebar">
+        <h2 class="section-title">Inicia tu proyecto</h2>
+        <p class="section-subtitle">Cuéntanos sobre tu visión y te enviaremos una propuesta detallada en menos de 24 horas.</p>
+        <div class="steps-indicator">
+          <div class="step active" id="indicator-1"><span>1</span> Tipo de proyecto</div>
+          <div class="step" id="indicator-2"><span>2</span> Detalles técnicos</div>
+          <div class="step" id="indicator-3"><span>3</span> Contacto</div>
+        </div>
+      </div>
+
+      <div class="form-content">
+        <form id="quoteForm" onsubmit="event.preventDefault();">
+          <!-- Paso 1 -->
+          <div class="form-step active" id="step-1">
+            <h3 class="step-title">¿Qué necesitas renderizar?</h3>
+            <div class="radio-grid">
+              <label class="radio-card">
+                <input type="radio" name="projectType" value="arquitectura" checked>
+                <div class="radio-content">
+                  <span class="radio-icon">🏛️</span>
+                  <span>Arquitectura</span>
+                </div>
+              </label>
+              <label class="radio-card">
+                <input type="radio" name="projectType" value="interiorismo">
+                <div class="radio-content">
+                  <span class="radio-icon">🛋️</span>
+                  <span>Interiorismo</span>
+                </div>
+              </label>
+              <label class="radio-card">
+                <input type="radio" name="projectType" value="producto">
+                <div class="radio-content">
+                  <span class="radio-icon">🎧</span>
+                  <span>Producto</span>
+                </div>
+              </label>
+              <label class="radio-card">
+                <input type="radio" name="projectType" value="otro">
+                <div class="radio-content">
+                  <span class="radio-icon">📦</span>
+                  <span>Otro</span>
+                </div>
+              </label>
             </div>
-            <div class="calc__bar">
-              <span>RENDIMIENTO CARDIO</span>
-              <div class="calc__bar-track"><div class="calc__bar-fill" id="barCardio" style="width:0%"></div></div>
-            </div>
-            <div class="calc__bar">
-              <span>GANANCIA MUSCULAR</span>
-              <div class="calc__bar-track"><div class="calc__bar-fill" id="barMuscle" style="width:0%"></div></div>
+            <div class="form-actions right">
+              <button type="button" class="btn btn-primary" onclick="nextStep(2)">Continuar</button>
             </div>
           </div>
-          <a href="#clase-gratis" class="btn btn--neon btn--sm calc__result-cta" style="margin-top:20px;">QUIERO QUEMAR ESO →</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- ============ TESTIMONIOS ============ -->
-<section class="section section--darker" id="testimonios">
-  <div class="wrap">
-    <div class="section__head reveal">
-      <span class="section__tag">// 05</span>
-      <h2 class="section__title">VOCES DE LA <span class="neon-text">FORJA</span></h2>
-    </div>
-    <div class="reviews-grid" id="reviewsGrid">
-      <!-- Generado por script.js -->
-    </div>
-  </div>
-</section>
+          <!-- Paso 2 -->
+          <div class="form-step" id="step-2">
+            <h3 class="step-title">Detalles del proyecto</h3>
+            <div class="form-group">
+              <label>Cantidad aproximada de imágenes</label>
+              <select name="imageCount" class="form-control">
+                <option value="1-3">1 a 3 renders</option>
+                <option value="4-10">4 a 10 renders</option>
+                <option value="10+">Más de 10 renders</option>
+                <option value="animacion">Animación / Recorrido</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>¿Cuentas con el modelo 3D base?</label>
+              <div class="radio-inline">
+                <label><input type="radio" name="hasModel" value="si" checked> Sí (Solo requiero materiales y luz)</label>
+                <label><input type="radio" name="hasModel" value="no"> No (Requiero modelado desde planos/bocetos)</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Descripción breve (Opcional)</label>
+              <textarea name="description" class="form-control" rows="3" placeholder="Ej. Necesito 3 renders interiores para un departamento piloto..."></textarea>
+            </div>
+            <div class="form-actions between">
+              <button type="button" class="btn btn-outline" onclick="prevStep(1)">Atrás</button>
+              <button type="button" class="btn btn-primary" onclick="nextStep(3)">Continuar</button>
+            </div>
+          </div>
 
-<!-- ============ CLASE GRATIS CTA ============ -->
-<section class="section cta-section" id="clase-gratis">
-  <div class="cta-section__bg" aria-hidden="true">
-    <div class="cta-grid-lines"></div>
-  </div>
-  <div class="wrap cta-wrap reveal">
-    <div class="cta-content">
-      <span class="section__tag" style="justify-content:center;">// AHORA O NUNCA</span>
-      <h2 class="cta__title">TU PRIMERA CLASE<br><span class="neon-text neon-text--xl">ES GRATIS.</span></h2>
-      <p>Sin compromiso. Sin excusas. Ven, entrena y decide si FORJA es para ti. <strong>Spoiler: lo es.</strong></p>
-      <div class="cta-actions">
-        <a href="#" class="btn btn--neon btn--xl whatsapp-btn" data-wa-msg="¡Quiero probar mi clase GRATIS en FORJA! 🔥">
-          ⚡ RESERVAR MI CLASE GRATIS
-        </a>
-        <a href="tel:+50322000000" class="btn btn--ghost btn--xl" id="ctaPhoneBtn">
-          📞 LLAMAR AHORA
-        </a>
-      </div>
-      <div class="cta-trust">
-        <span>✅ Sin compromiso</span>
-        <span>🕐 Respuesta inmediata</span>
-        <span>🔥 Cupos limitados</span>
-      </div>
-    </div>
-  </div>
-</section>
+          <!-- Paso 3 -->
+          <div class="form-step" id="step-3">
+            <h3 class="step-title">Datos de contacto</h3>
+            <div class="form-group">
+              <label>Nombre completo</label>
+              <input type="text" name="name" class="form-control" required placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+              <label>Correo electrónico</label>
+              <input type="email" name="email" class="form-control" required placeholder="tu@empresa.com">
+            </div>
+            <div class="form-group">
+              <label>Empresa / Estudio (Opcional)</label>
+              <input type="text" name="company" class="form-control" placeholder="Nombre de tu estudio">
+            </div>
+            <div class="form-actions between">
+              <button type="button" class="btn btn-outline" onclick="prevStep(2)">Atrás</button>
+              <button type="submit" class="btn btn-primary" onclick="submitForm()">Solicitar Cotización</button>
+            </div>
+          </div>
 
-<!-- ============ HORARIOS ============ -->
-<section class="section" id="contacto">
-  <div class="wrap">
-    <div class="section__head section__head--center reveal">
-      <span class="section__tag">// 06</span>
-      <h2 class="section__title">ENCUENTRA LA <span class="neon-text">FORJA</span></h2>
-    </div>
-    <div class="contact-grid reveal">
-      <div class="contact-card">
-        <span class="contact-card__icon">📍</span>
-        <h3>UBICACIÓN</h3>
-        <p>Boulevard de los Héroes #456<br>San Salvador, El Salvador</p>
-      </div>
-      <div class="contact-card">
-        <span class="contact-card__icon">🕐</span>
-        <h3>HORARIOS</h3>
-        <p>Lun - Vie: 6:00 AM – 10:00 PM<br>Sábados: 7:00 AM – 2:00 PM</p>
-      </div>
-      <div class="contact-card">
-        <span class="contact-card__icon">📞</span>
-        <h3>CONTACTO</h3>
-        <p>+503 2200-0000<br>WhatsApp: +503 7000-0000</p>
-      </div>
-      <div class="contact-card">
-        <span class="contact-card__icon">📧</span>
-        <h3>EMAIL</h3>
-        <p>info@forja.com.sv<br>clases@forja.com.sv</p>
+          <!-- Éxito -->
+          <div class="form-step form-success" id="step-success">
+            <div class="success-icon">✓</div>
+            <h3 class="step-title">¡Solicitud Enviada!</h3>
+            <p>Hemos recibido los detalles de tu proyecto. Nuestro equipo revisará la información y te contactaremos pronto con una cotización.</p>
+            <button type="button" class="btn btn-outline" onclick="location.reload()" style="margin-top: 24px;">Nueva consulta</button>
+          </div>
+        </form>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ============ FOOTER ============ -->
-<footer class="footer">
-  <div class="wrap">
-    <div class="footer__top">
-      <div>
-        <p class="footer__brand"><span class="logo-slash">//</span>FORJA<span class="logo-dot">.</span></p>
-        <p class="footer__tag">Donde se forjan guerreros.</p>
-        <div class="footer__social">
-          <a href="#" class="social-link" aria-label="Instagram">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-          </a>
-          <a href="#" class="social-link" aria-label="TikTok">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
-          </a>
-          <a href="#" class="social-link" aria-label="YouTube">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-          </a>
-        </div>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#" class="logo">VEXEL<span>.</span></a>
+        <p>Estudio especializado en Infoarquitectura y Visualización 3D.</p>
       </div>
-      <div class="footer__col">
-        <h4>DISCIPLINAS</h4>
-        <ul>
-          <li><a href="#disciplinas">Crossfit</a></li>
-          <li><a href="#disciplinas">MMA</a></li>
-          <li><a href="#disciplinas">Muay Thai</a></li>
-          <li><a href="#disciplinas">BJJ</a></li>
-        </ul>
-      </div>
-      <div class="footer__col">
-        <h4>LA FORJA</h4>
-        <ul>
-          <li><a href="#nosotros">Nosotros</a></li>
-          <li><a href="#planes">Planes</a></li>
-          <li><a href="#testimonios">Testimonios</a></li>
-          <li><a href="#clase-gratis">Clase gratis</a></li>
-        </ul>
-      </div>
-      <div class="footer__col">
-        <h4>CONTACTO</h4>
-        <ul>
-          <li><a href="#" class="whatsapp-btn" data-wa-msg="Hola, quiero info sobre FORJA.">WhatsApp</a></li>
-          <li><a href="tel:+50322000000">+503 2200-0000</a></li>
-          <li><a href="mailto:info@forja.com.sv">info@forja.com.sv</a></li>
-        </ul>
+      <div class="footer-links">
+        <a href="mailto:hello@vexel.studio">hello@vexel.studio</a>
+        <a href="#">Instagram</a>
+        <a href="#">Behance</a>
+        <a href="#">LinkedIn</a>
       </div>
     </div>
-    <div class="footer__bottom">
-      <span>© 2026 FORJA. TODOS LOS DERECHOS RESERVADOS.</span>
-      <span>SAN SALVADOR, EL SALVADOR</span>
+    <div class="container footer-bottom">
+      <p>© 2026 VEXEL Studio. Todos los derechos reservados.</p>
+      <p>Diseñado con precisión.</p>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- ============ STICKY MOBILE CTA ============ -->
-<div class="sticky-cta" id="stickyCta">
-  <div class="sticky-cta__text">
-    <strong>⚡ ¿LISTO PARA LA FORJA?</strong>
-    <span>Primera clase GRATIS</span>
-  </div>
-  <a href="#" class="btn btn--neon btn--sm whatsapp-btn" data-wa-msg="¡Quiero probar mi clase GRATIS en FORJA! 🔥">RESERVAR</a>
-</div>
-
-<script src="script.js" defer></script>
+  <script src="script.js"></script>
 </body>
 </html>

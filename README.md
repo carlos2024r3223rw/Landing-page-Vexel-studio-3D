@@ -1,103 +1,171 @@
-# ⚡ FORJA — Crossfit & Artes Marciales
+<div align="center">
+
+# 🎨 VEXEL Studio — Landing Page
+
+### Estudio de Renderizado 3D e Infoarquitectura
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-> **FORJA** es una Landing Page con temática **Dark / Cyberpunk** diseñada específicamente para un gimnasio boutique de Crossfit, MMA y entrenamiento de alto rendimiento. Su estética está pensada para transmitir fuerza, disciplina y adrenalina.
+Landing page moderna y profesional para **VEXEL Studio**, un estudio especializado en modelado 3D, renderizado fotorrealista e infoarquitectura. Diseñada para captar clientes del sector arquitectónico, inmobiliario y de diseño de producto.
+
+[🌐 Demo en Vivo](#) · [📂 Estructura](#-estructura-del-proyecto) · [🚀 Instalación](#-instalación-y-uso)
+
+</div>
 
 ---
 
 ## 📸 Vista Previa
 
-![FORJA Preview](hero.png)
+> Landing page con diseño minimalista, tipografía premium y animaciones sutiles orientada a la conversión de clientes potenciales.
 
 ---
 
 ## ✨ Características Principales
 
-| Característica | Descripción Detallada |
-|---|---|
-| 🖤 **Estilo Dark Cyberpunk** | Diseño inmersivo con fondo negro profundo y acentos de neón (verde lima, cian y naranja) para un aspecto premium e industrial. |
-| ⚡ **Efectos Visuales Avanzados** | Título principal con efecto "Glitch" interactivo, scanlines estilo monitor antiguo, y grano cinematográfico para darle un toque "gritty". |
-| 📊 **Calculadora de Calorías** | Herramienta interactiva que calcula las calorías estimadas que quemará el usuario según su peso, duración del entreno, intensidad y disciplina (Crossfit, MMA, Boxeo, etc.). Cuenta con barras de progreso animadas. |
-| 💰 **Planes de Membresía** | Visualización clara de los planes, destacando el plan "Espartano" con un efecto visual superior para atraer más conversiones. |
-| 💬 **Integración con WhatsApp** | Botones de llamada a la acción (CTA) configurados con mensajes predefinidos de WhatsApp Business para reservas instantáneas. |
-| 🎬 **Marquee Animado** | Banda de texto deslizante infinita para destacar las disciplinas clave. |
-| 📱 **Responsive Design** | 100% adaptable a cualquier dispositivo móvil. Incluye una barra de acción ("Sticky CTA") en la parte inferior para dispositivos móviles. |
-| 🔍 **SEO & Rendimiento** | Estructura semántica, fuentes auto-alojadas u optimizadas, y meta descripciones listas para indexación. |
+### 🖥️ Interfaz & Diseño
+- **Diseño responsive** — Adaptable a móvil, tablet y escritorio
+- **Tipografía premium** — Fuente [Inter](https://fonts.google.com/specimen/Inter) de Google Fonts (pesos 200–600)
+- **Paleta minimalista** — Tonos neutros con acentos oscuros, ideal para portafolios creativos
+- **Navbar con efecto scroll** — Fondo y borde cambian dinámicamente al hacer scroll
+- **Menú hamburguesa** — Navegación adaptada para dispositivos móviles
+
+### 🔄 Slider Before / After (Comparador Interactivo)
+- Slider arrastrabl que compara un **wireframe** con el **render fotorrealista final**
+- Soporte completo para **mouse y touch** (dispositivos táctiles)
+- Overlay de wireframe con efecto visual sobre la imagen base
+- Etiquetas "Wireframe" y "Render Final" integradas
+
+### 🏗️ Sección de Servicios
+Tres tarjetas con las especialidades del estudio:
+
+| # | Servicio | Descripción |
+|---|----------|-------------|
+| 01 | **Infoarquitectura** | Renders exteriores/interiores, planimetría 3D y recorridos virtuales para real estate |
+| 02 | **Diseño de Producto** | Imágenes de estudio, prototipado visual y vistas explosionadas para marketing |
+| 03 | **Game Assets** | Modelado low-poly/high-poly, retopología y texturizado PBR para Unreal Engine y Unity |
+
+### 🖼️ Galería / Portafolio
+- Grid de proyectos destacados con **overlay hover animado**
+- Cada proyecto muestra título, categoría y tipo de iluminación
+- Proyectos de ejemplo: *Residencia Silva*, *Penthouse M5*, *Aura Audio*
+
+### 📝 Formulario de Cotización (Multi-Step)
+Formulario de **3 pasos** con indicador de progreso visual:
+
+1. **Paso 1 — Tipo de proyecto:** Selección con tarjetas visuales (Arquitectura, Interiorismo, Producto, Otro)
+2. **Paso 2 — Detalles técnicos:** Cantidad de renders, disponibilidad de modelo 3D base, descripción del proyecto
+3. **Paso 3 — Datos de contacto:** Nombre, correo electrónico y empresa/estudio
+4. **Pantalla de éxito:** Confirmación visual con ícono ✓ y mensaje de seguimiento
+
+### 🔍 SEO
+- Meta tags optimizados (`title`, `description`)
+- HTML semántico con estructura de headings correcta
+- Atributos `alt` en todas las imágenes
+- Carga diferida (`loading="lazy"`) en imágenes de galería
 
 ---
 
-## 🏗️ Secciones de la Landing Page
+## 📂 Estructura del Proyecto
 
-1. **Header & Navegación**: Menú minimalista que se vuelve traslúcido y fijo (sticky) al hacer scroll.
-2. **Hero Section**: Primera impresión impactante con imagen full-screen oscura, estadísticas de la comunidad y un botón de reserva iluminado.
-3. **Marquee**: Banda de neón continua.
-4. **Disciplinas**: Tarjetas dinámicas que muestran las opciones de entrenamiento (MMA, BJJ, Muay Thai, etc.).
-5. **Nosotros ("Esto no es un gimnasio")**: Sección de filosofía del box, enfatizando el equipo de élite y la comunidad brutal.
-6. **Membresías**: Tabla de precios transparente.
-7. **Calculadora de Rendimiento**: Componente interactivo único de este gimnasio.
-8. **Testimonios ("Voces de la Forja")**: Opiniones de atletas reales para generar confianza social.
-9. **Call-To-Action (CTA)**: Cierre de la página incentivando a la primera clase gratuita, con un fondo animado en cuadrícula de neón.
-10. **Contacto & Footer**: Ubicación, horarios, teléfono, correo y redes sociales.
+```
+Landing-page-Vexel-studio-3D/
+│
+├── index.html        # Estructura HTML principal (277 líneas)
+├── style.css         # Estilos CSS completos — diseño, responsive, animaciones
+├── script.js         # Lógica JS — navbar, slider before/after, formulario multi-step
+├── hero.png          # Imagen principal del hero y comparador
+├── arch.png          # Imagen de proyecto de arquitectura (galería)
+├── product.png       # Imagen de proyecto de producto (galería)
+└── README.md         # Este archivo
+```
 
 ---
 
 ## 🚀 Instalación y Uso
 
-Este proyecto no utiliza frameworks ni requiere procesos de compilación (build steps). Es puro HTML, CSS y JS.
+### Opción 1 — Abrir directamente
+No requiere instalación ni dependencias. Simplemente abre `index.html` en tu navegador:
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone https://github.com/carlos2024r3223rw/Gym-landing-page.git
-   ```
-2. **Abrir el proyecto:**
-   - Simplemente abre el archivo `index.html` en tu navegador web de preferencia.
-   - Alternativamente, puedes usar la extensión **Live Server** en Visual Studio Code para ver cambios en tiempo real.
+```bash
+# Clonar el repositorio
+git clone https://github.com/carlos2024r3223rw/Landing-page-Vexel-studio-3D.git
 
----
-
-## ✏️ Personalización Rápida
-
-La lógica de negocio y el contenido textual están centralizados en el archivo `script.js` bajo un objeto de configuración.
-
-Abre `script.js` y modifica el objeto `CONFIG` a tus necesidades:
-
-```javascript
-const CONFIG = {
-  whatsappNumber: "50370000000",     // Cambia por el WhatsApp de tu gimnasio
-  phoneNumber: "+50322000000",       // Cambia por el número fijo
-
-  disciplines: [...],                // Añade o modifica las disciplinas ofrecidas
-  plans: [...],                      // Configura los precios y beneficios
-  reviews: [...],                    // Actualiza las reseñas
-  calorieMultipliers: {...},         // Ajusta los cálculos de rendimiento si es necesario
-};
+# Abrir en el navegador
+start index.html          # Windows
+open index.html           # macOS
+xdg-open index.html       # Linux
 ```
 
-*Las imágenes se pueden sustituir reemplazando `hero.png` y `trainers.png`.*
+### Opción 2 — Servidor local (recomendado)
+Para evitar restricciones de CORS con las fuentes de Google:
+
+```bash
+# Con Python 3
+python -m http.server 8000
+
+# Con Node.js (si tienes npx)
+npx serve .
+
+# Con VS Code
+# Instala la extensión "Live Server" y haz clic en "Go Live"
+```
+
+Luego visita `http://localhost:8000` en tu navegador.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## 🛠️ Tecnologías Utilizadas
 
-- **HTML5**: Estructura limpia y accesible.
-- **CSS3**: Variables CSS (Custom Properties), CSS Grid, Flexbox, y animaciones avanzadas (keyframes, glitch).
-- **JavaScript**: Lógica interactiva en Vanilla JS (ES6+), sin dependencias como jQuery o React, manteniendo la carga instantánea.
-- **Fuentes**: 
-  - `Bebas Neue` (Títulos de gran impacto)
-  - `Barlow & Barlow Condensed` (Cuerpos de texto y UI técnica)
+| Tecnología | Uso |
+|---|---|
+| **HTML5** | Estructura semántica de la página |
+| **CSS3** | Estilos, responsive design, animaciones, glassmorphism |
+| **Vanilla JavaScript** | Interactividad (slider, formulario, navbar) — sin frameworks ni librerías |
+| **Google Fonts (Inter)** | Tipografía moderna y legible |
+| **SVG inline** | Íconos del slider de comparación |
+
+---
+
+## 📐 Detalles Técnicos
+
+### Responsive Design
+La landing se adapta a todos los tamaños de pantalla:
+- **Desktop:** Layout completo con grid de servicios y galería a 3 columnas
+- **Tablet (≤ 768px):** Menú hamburguesa, grids a 2 columnas
+- **Móvil (≤ 480px):** Layout de 1 columna, formulario apilado
+
+### JavaScript — Módulos Funcionales
+
+```
+script.js
+├── initNavbar()      → Efecto de scroll en navbar + menú móvil toggle
+├── initSlider()      → Slider before/after con eventos mouse + touch
+├── initForm()        → Formulario multi-step (no utilizado directamente, lógica en funciones globales)
+├── nextStep(step)    → Avanza al siguiente paso del formulario
+├── prevStep(step)    → Retrocede al paso anterior
+└── submitForm()      → Valida campos y muestra pantalla de éxito
+```
+
+### CSS — Organización
+- Variables CSS para colores y espaciado consistente
+- Sistema de grid con `display: grid` y `display: flex`
+- Transiciones suaves en hover y estados activos
+- Overlay de galería con `opacity` y `transform`
 
 ---
 
 ## 📄 Licencia
 
-Este proyecto está bajo uso libre. Puedes adaptarlo, modificarlo y usarlo para cualquier fin comercial o personal.
+Este proyecto es de uso libre para fines educativos y de portafolio.
 
 ---
 
-<p align="center">
-  <strong>⚡ FORJADOS EN FUEGO ⚡</strong><br>
-  Construido para romper límites.
-</p>
+<div align="center">
+
+**Diseñado con precisión. ✦**
+
+© 2026 VEXEL Studio
+
+</div>
