@@ -1,6 +1,6 @@
 # VEXEL Studio: 3D Visualization Concept
 
-A bilingual English/Spanish portfolio landing page for a conceptual 3D visualization studio. It showcases architectural, interior, and product imagery with a responsive layout and a local project brief demo.
+A bilingual B2B landing page concept for a 3D visualization studio, designed to present services, selected work and an interactive project brief experience.
 
 [View the live page](https://carlos2024r3223rw.github.io/Landing-page-Vexel-studio-3D/)
 
@@ -12,7 +12,11 @@ A bilingual English/Spanish portfolio landing page for a conceptual 3D visualiza
 - Three-step project brief demo: choose a project type, select deliverables, and review a summary.
 - Responsive navigation and reduced-motion support.
 
-This is a **portfolio concept**. The studio, project examples, and project brief are illustrative. The form creates a summary only in the browser. It does not collect contact details, send requests, or generate a real quotation.
+This is a **conceptual B2B landing page**. The studio, projects and brief flow are illustrative and created for demonstration purposes. The form creates a summary only in the browser. It does not collect contact details, send requests, or generate a real quotation.
+
+## Tech Stack
+
+HTML5 · CSS3 · JavaScript · Responsive Design · GitHub Pages
 
 ## Run locally
 
